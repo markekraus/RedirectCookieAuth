@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.Extensions.Primitives;
 
-namespace RedirectCookie.Controllers
+namespace RedirectCookieAuth.Controllers
 {
     [Route("api/[controller]")]
     public class RedirectController : Controller

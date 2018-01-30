@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http.Extensions;
 
-namespace mvc.Controllers
+namespace RedirectCookieAuth.Controllers
 {
     [Route("api/[controller]")]
     public class GetController : Controller

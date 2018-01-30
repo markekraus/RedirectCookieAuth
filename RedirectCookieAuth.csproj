@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Product>PowerShell Core Test</Product>
-    <Company>Microsoft Corporation</Company>
-    <Copyright>(c) Microsoft Corporation. All rights reserved.</Copyright>
+    <Product>RedirectCookieAuth</Product>
+    <Company>Mark Kraus</Company>
+    <Copyright>(c) Mark Kraus. All rights reserved.</Copyright>
 
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <RuntimeFrameworkVersion>2.0.3</RuntimeFrameworkVersion>
@@ -15,9 +15,6 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
